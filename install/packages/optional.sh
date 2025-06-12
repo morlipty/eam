@@ -28,10 +28,9 @@ Wine=(
 )
 
 Steam=(
-  "lib32-vulkan-intel"
-  "lib32-vulkan-icd-loader"
   "vulkan-intel"
-  "vulkan-icd-loader"
+  "lib32-vulkan-intel"
+  "steam"
 )
 
 VirtualBox=(
