@@ -27,6 +27,13 @@ Wine=(
   "lutris"
 )
 
+Steam=(
+  "lib32-vulkan-intel"
+  "lib32-vulkan-icd-loader"
+  "vulkan-intel"
+  "vulkan-icd-loader"
+)
+
 VirtualBox=(
   "virtualbox"
   "virtualbox-guest-iso"
