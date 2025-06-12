@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo -e "${GREEN}"
+figlet -f smslant "Enable services"
+echo -e "${NONE}"
+
+Services=(
+  "sddm"
+  "power-profiles-daemon"
+  "firewalld"
+  "reflector.timer"
+  "paccache.timer"
+)
+
+systemctl enable "${Services[@]}"

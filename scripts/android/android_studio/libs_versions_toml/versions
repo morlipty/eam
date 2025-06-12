@@ -1,0 +1,6 @@
+splashScreen = "1.0.1"
+coroutine = "1.7.3"
+kspDevtools = "2.1.10-1.0.31"
+hiltDagger = "2.55"
+hiltAndroidx = "1.2.0"
+room = "2.7.1"

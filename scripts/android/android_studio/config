@@ -1,0 +1,5 @@
+#!/bin/bash
+
+home_location=~/eam/scripts/android/android_studio/
+android_studio_files=~/AndroidStudioProjects/
+current_date=$(date +%Y%m%d_%H%M%S)

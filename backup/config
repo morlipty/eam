@@ -1,0 +1,14 @@
+#!/bin/bash
+
+current_date=$(date +%Y:%m:%d-%H:%M)
+
+file_txt=~/eam/backup/archives/$current_date.txt
+
+destination=~/eam/dotfiles
+
+system_files=(
+    "/etc/pacman.conf"
+    "/etc/default/grub"
+    "/etc/resolv.conf"
+    "/etc/dnscrypt-proxy/dnscrypt-proxy.toml"
+)
