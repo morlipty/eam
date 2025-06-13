@@ -45,7 +45,6 @@ Pacman=(
 )
 
 System=(
-  "dmidecode"
   "os-prober"
   "alsa-utils"
 )
@@ -79,6 +78,7 @@ CliTools=(
   "eza"
   "fzf"
   "zip"
+  "bind"
   "unzip"
   "p7zip"
   "wget"
@@ -90,6 +90,7 @@ CliTools=(
   "man-db"
   "ripgrep"
   "thefuck"
+  "dmidecode"
   "man-pages"
   "ueberzugpp"
   "github-cli"
