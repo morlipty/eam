@@ -7,6 +7,7 @@ echo -e "${NONE}"
 Services=(
   "sddm"
   "power-profiles-daemon"
+  "thermald"
   "firewalld"
   "reflector.timer"
   "paccache.timer"

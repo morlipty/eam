@@ -17,9 +17,15 @@ Fonts=(
 Intel=(
   "mesa"
   "intel-ucode"
-  "iucode-tool"
+  "thermald"
   "intel-media-driver"
   "libva-intel-driver"
+)
+
+IntelTools=(
+  "iucode-tool"
+  "libva-utils"
+  "intel-gpu-tools"
 )
 
 KDE=(
