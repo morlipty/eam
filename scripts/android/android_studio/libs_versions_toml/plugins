@@ -1,2 +1,0 @@
-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "kspDevtools" }
-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltDagger" }

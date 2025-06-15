@@ -14,6 +14,14 @@ Fonts=(
   "ttf-ms-win11-auto"
 )
 
+Intel=(
+  "mesa"
+  "intel-ucode"
+  "iucode-tool"
+  "intel-media-driver"
+  "libva-intel-driver"
+)
+
 KDE=(
   "plasma-meta"
   "dolphin"
