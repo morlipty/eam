@@ -1,6 +1,6 @@
-[submodule "dotfiles/.zsh/zsh-bench"]
-	path = dotfiles/.zsh/zsh-bench
-	url = https://github.com/romkatv/zsh-bench.git
 [submodule "dotfiles/.zsh/.antidote"]
 	path = dotfiles/.zsh/.antidote
 	url = https://github.com/mattmc3/antidote.git
+[submodule "dotfiles/.zsh/zsh-bench"]
+	path = dotfiles/.zsh/zsh-bench
+	url = https://github.com/romkatv/zsh-bench.git
