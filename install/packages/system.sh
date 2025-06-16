@@ -66,9 +66,8 @@ System=(
 Languages=(
   "python-pipx"
   "python-pip"
-  "pyenv"
+  "uv"
   "rust"
-  "cargo"
   "nodejs"
   "npm"
   "luarocks"
