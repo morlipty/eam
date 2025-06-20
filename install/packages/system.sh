@@ -18,6 +18,8 @@ Intel=(
   "mesa"
   "intel-ucode"
   "thermald"
+  "libvpl"
+  "vpl-gpu-rt"
   "intel-media-driver"
   "libva-intel-driver"
 )
@@ -34,6 +36,7 @@ KDE=(
   "ark"
   "kwenview"
   "konsole"
+  "yakuake"
   "filelight"
   "ksystemlog"
   "kdeconnect"

@@ -9,6 +9,7 @@ Services=(
   "power-profiles-daemon"
   "thermald"
   "firewalld"
+  "bluetooth"
   "reflector.timer"
   "paccache.timer"
 )

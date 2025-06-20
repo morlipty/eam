@@ -1,0 +1,112 @@
+configs
+ .config
+├──  kitty
+│   ├──  kitten.conf
+│   └──  kitty.conf
+├──  nvim
+│   ├──  .stylua.toml
+│   ├──  init.lua
+│   ├──  lazy-lock.json
+│   ├──  LICENSE
+│   ├──  lua
+│   └── 󰂺 README.md
+└──  yazi
+    ├──  flavors
+    ├──  init.lua
+    ├──  keymap.toml
+    ├──  package.toml
+    ├──  plugins
+    ├──  theme.toml
+    └──  yazi.toml
+ .zsh
+├──  .antidote
+│   ├──  .bumpversion.cfg
+│   ├──  .editorconfig
+│   ├──  .git
+│   ├──  .github
+│   ├──  .gitignore
+│   ├──  antidote
+│   ├──  antidote.zsh
+│   ├──  functions
+│   ├──  LICENSE
+│   ├──  makefile
+│   ├──  man
+│   ├── 󰂺 README.md
+│   ├──  tests
+│   └──  tools
+├── 󱆃 .zprofile
+├──  .zsh_plugins.txt
+├──  .zsh_plugins.zsh
+├── 󱆃 .zshrc
+├──  aliases_and_functions.zsh
+├──  sudo.zsh
+└──  zsh-bench
+    ├──  .git
+    ├──  .gitattributes
+    ├──  configs
+    ├──  dbg
+    ├──  doc
+    ├──  human-bench
+    ├──  internal
+    ├──  LICENSE
+    ├── 󰂺 README.md
+    ├──  zsh-bench
+    └──  zsh-playground
+󱆃 .zshenv
+
+system configs
+ .config
+├──  kitty
+│   ├──  kitten.conf
+│   └──  kitty.conf
+├──  nvim
+│   ├──  .stylua.toml
+│   ├──  init.lua
+│   ├──  lazy-lock.json
+│   ├──  LICENSE
+│   ├──  lua
+│   └── 󰂺 README.md
+└──  yazi
+    ├──  flavors
+    ├──  init.lua
+    ├──  keymap.toml
+    ├──  package.toml
+    ├──  plugins
+    ├──  theme.toml
+    └──  yazi.toml
+ .zsh
+├──  .antidote
+│   ├──  .bumpversion.cfg
+│   ├──  .editorconfig
+│   ├──  .git
+│   ├──  .github
+│   ├──  .gitignore
+│   ├──  antidote
+│   ├──  antidote.zsh
+│   ├──  functions
+│   ├──  LICENSE
+│   ├──  makefile
+│   ├──  man
+│   ├── 󰂺 README.md
+│   ├──  tests
+│   └──  tools
+├── 󱆃 .zprofile
+├──  .zsh_plugins.txt
+├──  .zsh_plugins.zsh
+├── 󱆃 .zshrc
+├──  aliases_and_functions.zsh
+├──  sudo.zsh
+└──  zsh-bench
+    ├──  .git
+    ├──  .gitattributes
+    ├──  configs
+    ├──  dbg
+    ├──  doc
+    ├──  human-bench
+    ├──  internal
+    ├──  LICENSE
+    ├── 󰂺 README.md
+    ├──  zsh-bench
+    └──  zsh-playground
+󱆃 .zshenv
+
