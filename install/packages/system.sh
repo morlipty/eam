@@ -62,6 +62,7 @@ Pacman=(
 )
 
 System=(
+  "fwupd"
   "os-prober"
   "alsa-utils"
 )
