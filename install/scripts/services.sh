@@ -10,7 +10,6 @@ Services=(
   "thermald"
   "firewalld"
   "bluetooth"
-  "reflector.timer"
   "paccache.timer"
 )
 

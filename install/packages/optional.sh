@@ -1,32 +1,5 @@
 #!/bin/bash
 
-Audio=(
-  "pipewire"
-  "pipewire-pulse"
-  "pipewire-alsa"
-  "pipewire-jack"
-  "pipewire-audio"
-  "sof-firmware"
-  "wireplumber"
-)
-
-Wine=(
-  "wine-staging"
-  "wine-gecko"
-  "wine-mono"
-  "winetricks"
-  "samba"
-  "vulkan-tools"
-  "lib32-vulkan-intel"
-  "lib32-mesa"
-  "lib32-gnutls"
-  "lib32-mpg123"
-  "lib32-giflib"
-  "lib32-pipewire"
-  "lib32-pipewire-jack"
-  "lutris"
-)
-
 Steam=(
   "vulkan-intel"
   "lib32-vulkan-intel"

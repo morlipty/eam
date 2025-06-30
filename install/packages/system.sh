@@ -6,12 +6,9 @@ Fonts=(
   "noto-fonts-cjk"
   "noto-fonts-emoji"
   "noto-fonts-extra"
-  "otf-font-awesome"
   "ttf-font-awesome"
-  "ttf-fira-sans"
   "ttf-fira-code"
   "ttf-firacode-nerd"
-  "ttf-ms-win11-auto"
 )
 
 Intel=(
@@ -20,8 +17,19 @@ Intel=(
   "thermald"
   "libvpl"
   "vpl-gpu-rt"
+  "vulkan-intel"
   "intel-media-driver"
   "libva-intel-driver"
+)
+
+Audio=(
+  "pipewire"
+  "pipewire-pulse"
+  "pipewire-alsa"
+  "pipewire-jack"
+  "pipewire-audio"
+  "sof-firmware"
+  "wireplumber"
 )
 
 IntelTools=(
@@ -34,9 +42,8 @@ KDE=(
   "plasma-meta"
   "dolphin"
   "ark"
-  "kwenview"
+  "gwenview"
   "konsole"
-  "yakuake"
   "filelight"
   "ksystemlog"
   "kdeconnect"
@@ -63,7 +70,6 @@ Pacman=(
 
 System=(
   "fwupd"
-  "os-prober"
   "alsa-utils"
 )
 
@@ -107,7 +113,6 @@ CliTools=(
   "man-db"
   "ripgrep"
   "thefuck"
-  "dmidecode"
   "man-pages"
   "ueberzugpp"
   "github-cli"
@@ -121,37 +126,27 @@ ImageEditing=(
 )
 
 Web=(
-  "stremio"
-  "vesktop-bin"
   "qbittorrent"
-  "freetube-bin"
   "chromium"
-  "zen-browser-bin"
   "spotify-launcher"
   "telegram-desktop"
-  "ayugram-desktop-bin"
 )
 
 Tools=(
   "copyq"
   "scrcpy"
-  "qtscrcpy-bin"
   "xournalpp"
-  "ventoy-bin"
   "qalculate-qt"
-  "rustdesk-bin"
-  "localsend-bin"
 )
 
 Development=(
   "android-tools"
-  "jetbrains-toolbox"
-  "visual-studio-code-bin"
 )
 
 Install=(
   "${Fonts[@]}"
   "${KDE[@]}"
+  "${Audio[@]}"
   "${Battery[@]}"
   "${Network[@]}"
   "${Pacman[@]}"
@@ -166,4 +161,4 @@ Install=(
   "${Languages[@]}"
 )
 
-yay -S --needed "${Install[@]}"
+sudo pacman -S --needed "${Install[@]}"
