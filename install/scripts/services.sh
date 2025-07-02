@@ -8,8 +8,6 @@ Services=(
   "sddm"
   "power-profiles-daemon"
   "thermald"
-  "firewalld"
-  "bluetooth"
   "paccache.timer"
 )
 

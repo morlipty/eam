@@ -13,13 +13,6 @@ VirtualBox=(
   "virtualbox-host-modules-arch"
 )
 
-if gum confirm "Do you want to install audio"; then
-  echo -e "${GREEN}"
-  figlet -f smslant "Audio"
-  echo -e "${NONE}"
-  yay -S --needed --noconfirm "${Audio[@]}"
-fi
-
 if gum confirm "Do you want to install wine"; then
   echo -e "${GREEN}"
   figlet -f smslant "Wine"

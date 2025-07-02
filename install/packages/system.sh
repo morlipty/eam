@@ -32,12 +32,6 @@ Audio=(
   "wireplumber"
 )
 
-IntelTools=(
-  "iucode-tool"
-  "libva-utils"
-  "intel-gpu-tools"
-)
-
 KDE=(
   "plasma-meta"
   "dolphin"
@@ -70,21 +64,13 @@ Pacman=(
 
 System=(
   "fwupd"
-  "alsa-utils"
 )
 
 Languages=(
   "python-pipx"
   "python-pip"
-  "uv"
-  "rust"
-  "nodejs"
   "npm"
   "luarocks"
-  "jdk-openjdk"
-  "jdk17-openjdk"
-  "jdk21-openjdk"
-  "dotnet-sdk"
 )
 
 Terminal=(
@@ -101,22 +87,17 @@ CliTools=(
   "eza"
   "fzf"
   "zip"
-  "bind"
   "unzip"
   "p7zip"
   "wget"
   "rhash"
-  "rsync"
   "rclone"
   "zoxide"
-  "hwinfo"
   "man-db"
-  "ripgrep"
   "thefuck"
   "man-pages"
   "ueberzugpp"
   "github-cli"
-  "wl-clipboard"
   "perl-file-mimeinfo"
 )
 
@@ -129,7 +110,6 @@ Web=(
   "qbittorrent"
   "chromium"
   "spotify-launcher"
-  "telegram-desktop"
 )
 
 Tools=(
@@ -145,20 +125,20 @@ Development=(
 
 Install=(
   "${Fonts[@]}"
-  "${KDE[@]}"
+  "${Intel[@]}"
   "${Audio[@]}"
+  "${KDE[@]}"
   "${Battery[@]}"
   "${Network[@]}"
   "${Pacman[@]}"
   "${System[@]}"
+  "${Languages[@]}"
   "${Terminal[@]}"
   "${CliTools[@]}"
   "${ImageEditing[@]}"
-  "${Development}"
-  "${Tools[@]}"
   "${Web[@]}"
   "${Tools[@]}"
-  "${Languages[@]}"
+  "${Development[@]}"
 )
 
 sudo pacman -S --needed "${Install[@]}"
