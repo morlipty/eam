@@ -12,7 +12,7 @@ alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias grub-ebr='sudo grub-install --efi-directory=/efi --boot-directory=/boot --removable'
 
 #package manager
-alias refelctor-update='sudo refelctor reflector --country Germany,Georgia,Russia --latest 5 --sort rate --save /etc/pacman.d/mirrorlist'
+alias reflector-update='sudo reflector --verbose --country Iran,Germany,France --latest 50 --sort rate --save /etc/pacman.d/mirrorlist'
 alias pacin='sudo pacman -S'
 alias pacupg='sudo pacman -Syu'
 alias pacrem='sudo pacman -Rns'

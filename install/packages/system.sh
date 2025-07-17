@@ -63,6 +63,7 @@ Pacman=(
 )
 
 System=(
+  "net-tools"
   "fwupd"
 )
 
@@ -88,6 +89,7 @@ CliTools=(
   "fzf"
   "zip"
   "unzip"
+  "unrar"
   "p7zip"
   "wget"
   "rhash"
