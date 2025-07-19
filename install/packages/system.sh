@@ -35,6 +35,7 @@ Audio=(
 KDE=(
   "plasma-meta"
   "dolphin"
+  "ffmpegthumbs"
   "ark"
   "gwenview"
   "konsole"
@@ -111,7 +112,7 @@ ImageEditing=(
 Web=(
   "qbittorrent"
   "chromium"
-  "spotify-launcher"
+  "speech-dispatcher"
 )
 
 Tools=(
