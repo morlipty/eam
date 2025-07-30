@@ -42,6 +42,7 @@ KDE=(
   "filelight"
   "ksystemlog"
   "kdeconnect"
+  "kdialog"
   "gucharmap"
   "sshfs"
 )
@@ -89,6 +90,7 @@ CliTools=(
   "eza"
   "fzf"
   "zip"
+  "bind"
   "unzip"
   "unrar"
   "p7zip"
