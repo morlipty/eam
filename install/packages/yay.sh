@@ -6,7 +6,6 @@ YAY=(
   "freetube-bin"
   "zen-browser-bin"
   "ayugram-desktop-bin"
-  "vesktop-bin"
   "jetbrains-toolbox"
   "visual-studio-code-bin"
   "rustdesk-bin"
