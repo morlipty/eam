@@ -7,6 +7,7 @@ source ~/.cache/wal/colors.sh
 #setopts
 setopt autocd
 setopt autopushd
+setopt histignorealldups
 
 #enable history
 HISTFILE=~/.zsh_history
